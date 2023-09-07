@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3423A6;
+}
+
+footer {
+    background-color: #3423A6;
+    color: #F0EEFB;
+    text-align: center;
+    padding: 40px;   
+}
+
+h3 {
+    color: #3423A6;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;   
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar p {
+    margin-left: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #F0EEFB;
+}
+
+.navbar a:hover {
+    color: #EE8434;
+}
+
+.container {
+    background-color: #E1DDF8;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.product-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.card p {
+    margin-bottom: 10px;
+    color: #404664;
+}
+
+.bold {
+    font-weight: bold;
+    color: #212531;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3423A6;
+    color: #F0EEFB;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #EE8434;
+}
+
+#logo {
+    color: #F0EEFB;
+}
+
+#img-1 {
+    background-image: url('../img/nike-downshifter.jpg');
+}
+
+#img-2 {
+    background-image: url('../img/mizuno-raijuu.jpg');
+}
+
+#img-3 {
+    background-image: url('../img/olympikus-ares.jpg');
+}
+
+#img-4 {
+    background-image: url('../img/converse-allstar.jpg');
+}
+
+#img-5 {
+    background-image: url('../img/vans-filmore.jpg');
+}
+
+#img-6 {
+    background-image: url('../img/adidas-runfalcon.jpg');
+}
+
+#img-7 {
+    background-image: url('../img/puma-carina.jpg');
+}
+
+#img-8 {
+    background-image: url('../img/asics-gel-nagoya.jpg');
+}
+
+#img-9 {
+    background-image: url('../img/fila-calzini.jpg');
+}

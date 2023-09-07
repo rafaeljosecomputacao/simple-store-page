@@ -4,85 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Store Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
-        <div>
-            <p>Center Shoes</p>
+        <div class="navbar">
+            <p><i class="bi bi-building" id="logo"></i><a href="#"> Center Shoes</a></p>          
             <ul>
-                <li>Home</li>
-                <li>Shoes</li>
-                <li>On Sale</li>
-                <li>Contact</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">On Sale</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+                <li><a href="#"><i class="bi bi-heart"></i></a></li>
+                <li><a href="#"><i class="bi bi-cart"></i></a></li>
             </ul>
         </div>
     </header>
 
     <article>
-        <main>
-            <section>
-                <div>
-                    <div>Image</div>
-                    <h3>Shoe Name</h3>
-                    <p>Basic description</p>
-                    <p>$ <span>80.00</span></p>
-                    <a href="#">Buy Now</a>
+        <main class="container">
+            <section class="product-container">
+                <div class="card">
+                    <div class="product-image" id="img-1"></div>
+                    <h3>Nike Downshifter</h3>
+                    <p>Short product description</p>
+                    <p><span class="bold">$ 100.00</span></p>
+                    <a href="#" class="btn">Buy Now</a>
                 </div>
-                <div>
-                    <div>Image</div>
-                    <h3>Shoe Name</h3>
-                    <p>Basic description</p>
-                    <p>$ <span>80.00</span></p>
-                    <a href="#">Buy Now</a>
+                <div class="card">
+                    <div class="product-image" id="img-2"></div>
+                    <h3>Mizuno Raijuu</h3>
+                    <p>Short product description</p>
+                    <p><span class="bold">$ 80.00</span></p>
+                    <a href="#" class="btn">Buy Now</a>
                 </div>
-                <div>
-                    <div>Image</div>
-                    <h3>Shoe Name</h3>
-                    <p>Basic description</p>
-                    <p>$ <span>80.00</span></p>
-                    <a href="#">Buy Now</a>
+                <div class="card">
+                    <div class="product-image" id="img-3"></div>
+                    <h3>Olympikus Ares</h3>
+                    <p>Short product description</p>
+                    <p><span class="bold">$ 90.00</span></p>
+                    <a href="#" class="btn">Buy Now</a>
                 </div>
-                <div>
-                    <div>Image</div>
-                    <h3>Shoe Name</h3>
-                    <p>Basic description</p>
-                    <p>$ <span>80.00</span></p>
-                    <a href="#">Buy Now</a>
+                <div class="card">
+                    <div class="product-image" id="img-4"></div>
+                    <h3>Converse All Star</h3>
+                    <p>Short product description</p>
+                    <p><span class="bold">$ 70.00</span></p>
+                    <a href="#" class="btn">Buy Now</a>
                 </div>
-                <div>
-                    <div>Image</div>
-                    <h3>Shoe Name</h3>
-                    <p>Basic description</p>
-                    <p>$ <span>80.00</span></p>
-                    <a href="#">Buy Now</a>
+                <div class="card">
+                    <div class="product-image" id="img-5"></div>
+                    <h3>Vans Filmore</h3>
+                    <p>Short product description</p>
+                    <p><span class="bold">$ 70.00</span></p>
+                    <a href="#" class="btn">Buy Now</a>
                 </div>
-                <div>
-                    <div>Image</div>
-                    <h3>Shoe Name</h3>
-                    <p>Basic description</p>
-                    <p>$ <span>80.00</span></p>
-                    <a href="#">Buy Now</a>
+                <div class="card">
+                    <div class="product-image" id="img-6"></div>
+                    <h3>Adidas Run Falcon</h3>
+                    <p>Short product description</p>
+                    <p><span class="bold">$ 90.00</span></p>
+                    <a href="#" class="btn">Buy Now</a>
                 </div>
-                <div>
-                    <div>Image</div>
-                    <h3>Shoe Name</h3>
-                    <p>Basic description</p>
-                    <p>$ <span>80.00</span></p>
-                    <a href="#">Buy Now</a>
+                <div class="card">
+                    <div class="product-image" id="img-7"></div>
+                    <h3>Puma Carina</h3>
+                    <p>Short product description</p>
+                    <p><span class="bold">$ 80.00</span></p>
+                    <a href="#" class="btn">Buy Now</a>
                 </div>
-                <div>
-                    <div>Image</div>
-                    <h3>Shoe Name</h3>
-                    <p>Basic description</p>
-                    <p>$ <span>80.00</span></p>
-                    <a href="#">Buy Now</a>
+                <div class="card">
+                    <div class="product-image" id="img-8"></div>
+                    <h3>Asics Gel Nagoya</h3>
+                    <p>Short product description</p>
+                    <p><span class="bold">$ 50.00</span></p>
+                    <a href="#" class="btn">Buy Now</a>
                 </div>
-                <div>
-                    <div>Image</div>
-                    <h3>Shoe Name</h3>
-                    <p>Basic description</p>
-                    <p>$ <span>80.00</span></p>
-                    <a href="#">Buy Now</a>
+                <div class="card">
+                    <div class="product-image" id="img-9"></div>
+                    <h3>Fila Calzini</h3>
+                    <p>Short product description</p>
+                    <p><span class="bold">$ 60.00</span></p>
+                    <a href="#" class="btn">Buy Now</a>
                 </div>
             </section>
         </main>
